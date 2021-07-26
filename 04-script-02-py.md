@@ -8,7 +8,7 @@
 
 import os
 
-path = '~/admitad/logbroker-infrastructure'
+path = '~/netology/sysadm-homeworks'
 bash_command = [f"cd {path}", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 for result in result_os.split('\n'):
