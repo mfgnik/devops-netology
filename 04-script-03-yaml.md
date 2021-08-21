@@ -1,5 +1,8 @@
 1. Ошибки две: первая - потеряна кавычка после ip, вторая - потеряны обе кавычки вокруг самого адреса.
-2. ```python
+2. 
+```python
+#!/usr/bin/env python3
+
 import json
 import socket
 import time
