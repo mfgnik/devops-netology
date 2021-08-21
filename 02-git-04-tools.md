@@ -3,16 +3,19 @@
 git show aefea
 ```
 Полный хэш - aefead2207ef7e2aa5dc81a34aedf0cad4c32545, комментарий - Update CHANGELOG.md
+
 2. 
 ```
 git show 85024d3
 ```
 Тег - 0.12.23
+
 3.
 ```
 git show --pretty=format:' %P' b8d720
 ```
 Родители коммита: 56cd7859e05c36c06b56d013b55a252d0bb7e158 и 9ea88f22fc6269854151c571162c5bcf958bee2b
+
 4.
 ```
 git log v0.12.23..v0.12.24 --oneline
@@ -29,11 +32,13 @@ d5f9411f5 command: Fix bug when using terraform login on Windows
 dd01a3507 Update CHANGELOG.md
 225466bc3 Cleanup after v0.12.23 release
 ```
+
 5.
 ```
 git log -S "func providerSource"
 ```
 Ответ - 8c928e83589d90a031f811fae52a81be7153e82f
+
 6.
 Первая команда
 ```
@@ -50,6 +55,7 @@ git log -L :globalPluginDirs:plugins.go
 - 41ab0aef7a0fe030e84018973a64135b11abcd70
 - 66ebff90cdfaa6938f26f908c7ebad8d547fea17
 - 8364383c359a6b738a436d1b7745ccdce178df47
+
 7. 
 ```
 git log -S "func synchronizedWriters" 
