@@ -23,7 +23,6 @@ def check_ips(services: Dict, yaml_path: Optional[str] = None, json_path: Option
                 services[service] = ip
                 changed = True
         if changed:
-            print(services)
             if yaml_path:
                 with open(yaml_path, 'w') as f:
                     yaml.dump(services, f)
