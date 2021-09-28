@@ -4,7 +4,7 @@
 Description=Node Exporter
  
 [Service]
-ExecStart=/opt/node_exporter/node_exporter
+ExecStart=/opt/node_exporter/node_exporter --web.config=web-config.yml
 EnvironmentFile=/etc/default/node_exporter
  
 [Install]
